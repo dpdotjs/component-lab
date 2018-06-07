@@ -1,6 +1,6 @@
 export default {
-  entry: './release/index.js',
-  dest: './release/bundles/component-lab.umd.js',
+  entry: '../simplysnap-omni/node_modules/component-lab/index.js',
+  dest: '../simplysnap-omni/node_modules/component-lab/bundles/component-lab.umd.js',
   format: 'umd',
   moduleName: 'synapse.componentLab',
   globals: {
@@ -16,6 +16,6 @@ export default {
     '@ngrx/core': 'ngrx.core',
     'rxjs/Observable': 'Rx',
     'rxjs/operator/pluck': 'Rx.Observable.prototype',
-    'lodash': '_'
-  }
-}
+    lodash: '_',
+  },
+};
